@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head></head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cronometro</title>
+        <link rel="icon" type="image/png" sizes="32x32" href="logo.png">        
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            
+                <div class="left">
+                    <img src="logo.png" alt="">
+                </div>
+                <div class="center">
+                    <ul></ul>
+                </div>
+                <div class="right">
+                    <h3>
+                        Cronómetro
+                    </h3>
+                </div>
+            
+        </header>
+        
+        <div class="reloj">
+
+            <h1 id="number">00:00:00</h1>
+            
+            <div>
+                <button type="button" class="start">START</button>
+                <button type="button" class="pause disabled" disabled>PAUSE</button>
+                <button type="button" class="reset disabled" disabled>RESET</button>
+            </div>
+
+            <div class="progress">
+                <p>Segundos</p>
+                    <progress id="javascript" max="60" value="0"></progress>
+                    <span></span>
+            </div>
+        </div>
+        
+
+
+
+
+        <script src="script.js"></script>
+        
+    </body>
+</html>
